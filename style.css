@@ -81,3 +81,43 @@ button:hover {
     transform: scale(1.05);
 }
 
+#displayContent {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.innerDivStyle {
+    background-color: #eaeef4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(178, 181, 194, 0.1);
+    animation: fadeCard 0.5s ease;
+    line-height: 1.8;
+}
+
+@keyframes fadeCard {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+  
+.innerDivStyle img {
+    max-width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #58739d;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
